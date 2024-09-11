@@ -30,7 +30,7 @@ if 5 > 2:
 
 # Example:
 if 5 < 2:
-    print("5 is less than 2")
+    print("It's false")
 else:
     print("5 is greater than 2")
 
@@ -71,5 +71,3 @@ if a > b:
         print("a is equal to b")
     else:
         print("a is less than b")
-else:
-    print("a is less than b")

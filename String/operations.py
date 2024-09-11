@@ -15,7 +15,7 @@ print(len1)  # 5
 # ----------------------------------------------------------------------------------------------------------------
 fruits = "mango"
 fruits1 = "apple"
-fruits2 = fruits + fruits1
+fruits2 = fruits + fruits1 #Its a concatenation.
 print(fruits2)  # mangoapple
 # -----------------------------------------------Repetition of String-----------------------------------------------
 # Description: This function returns the repetition of string
@@ -34,7 +34,7 @@ print(fruits1)  # mangomango
 # ----------------------------------------------------------------------------------------------------------------
 fruits = "mango"
 fruits1 = fruits[0]
-print(fruits1)  # m
+print(fruits1)  #m
 # -----------------------------------------------Slicing of String-----------------------------------------------
 # Description: This function returns the character at the given index
 # Parameters: String
@@ -43,3 +43,9 @@ print(fruits1)  # m
 # ----------------------------------------------------------------------------------------------------------------
 fruits = "mango"
 fruits1 = fruits[0:3]
+print(fruits1)  #man
+#Description: This function returns the character at the given index
+#Parameters: String
+#Return Type:Character
+#Time complexity Worst Case:O(n)
+#------------------------------------------------------------------------------------------------------------------

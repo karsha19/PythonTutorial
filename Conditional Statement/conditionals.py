@@ -30,7 +30,7 @@ if 5 > 2:
 
 # Example:
 if 5 < 2:
-    print("5 is less than 2")
+    print("5 is lesser than 2")
 else:
     print("5 is greater than 2")
 
@@ -51,7 +51,7 @@ if a > b:
 elif a == b:
     print("a is equal to b")
 else:
-    print("a is less than b")
+    print("a is lesser than b")
 
 # nested if statement
 # Syntax:
@@ -70,6 +70,6 @@ if a > b:
     if a == b:
         print("a is equal to b")
     else:
-        print("a is less than b")
+        print("a is lesser than b")
 else:
-    print("a is less than b")
+    print("a is lesser than b")
